@@ -1,0 +1,29 @@
+.xgen_ai_slider_btn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+.xgen_ai_slider_btn svg {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+.xgen_ai_slider_btn_prev {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.xgen_ai_slider_btn_next {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
